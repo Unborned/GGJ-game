@@ -2,8 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript3 : MonoBehaviour
+public class Controller : MonoBehaviour
 {
+    private bool state = false;
+
+    public bool getState(){
+        return state;
+    }
+
+    public void setState(bool state) {
+        this.state = state;
+    }
     // Start is called before the first frame update
     void Start()
     {
