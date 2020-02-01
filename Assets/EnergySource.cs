@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript12 : MonoBehaviour
+public class EnergySource : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()

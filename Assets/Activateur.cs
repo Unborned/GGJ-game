@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Activateur : MonoBehaviour
 {
-    // Start is called before the first frame update
+	public Alimentateur alimentateur=null;
     void Start()
     {
-        
+        if(alimentateur!=null){
+        	Debug.Log(alimentateur.getState());
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         
