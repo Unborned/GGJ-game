@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript11 : MonoBehaviour
+public class Alimentateur : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private bool state = false;
+
+    public bool getState(){
+    	return state;
+    }
+
+    public void setState(bool )
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
